@@ -1,7 +1,7 @@
 // import React from "react";
 
 const App = () => {
-  const temparature = 25; //ตัวหลอก???
+  const temperature = 25; //ตัวหลอก???
 
   return (
     <>
@@ -14,10 +14,10 @@ const App = () => {
 
 function Header() {
   return (
-    <header>
+    <div>
       <button>ON/OFF</button>
       <span>Current Temparature = 25 &deg;C </span>
-    </header>
+    </div>
   );
 }
 
